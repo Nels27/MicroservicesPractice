@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RestfulGlassfishHelloWorld:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RestfulGlassfishHelloWorld</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="RestfulGlassfishHelloWorld-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="RestfulGlassfishHelloWorld:war exploded" />
+    </root>
+  </artifact>
+</component>
